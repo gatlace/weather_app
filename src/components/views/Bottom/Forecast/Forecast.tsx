@@ -17,7 +17,7 @@ const Forecast = () => {
       const cardInfo: any  = {};
       for (const [key, value] of Object.entries(weather.daily)) {
         if (key === "sunrise" || key === "sunset") {
-          cardInfo[key] = new Date(value[index]).toLocaleTimeString();
+          cardInfo[key] = new Date(value[index]).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
         } else if (key === "time") {
           cardInfo[key] = new Date(value[index]).toLocaleDateString()
         } else {

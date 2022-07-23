@@ -42,7 +42,7 @@ const Options = () => {
               className={"flex flex-col items-center w-full h-full " + 
               (isMobile && "py-2 border-b-2")}>
               <h3 className="text-2xl">{key}</h3>
-              <div className={"flex flex-col justify-evenly w-full h-1/3 " + (isMobile && "h-full")}>
+              <div className={"flex flex-col justify-evenly w-full h-1/3 grow"}>
                   {buttons}
               </div>
           </div>
