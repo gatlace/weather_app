@@ -33,7 +33,7 @@ const Forecast = () => {
   return (
   <div className="flex flex-col bg-black/40 mt-10 rounded-lg grow">
     <h1 className="text-3xl border-b m-2 text-center">Forecast</h1>
-    <div className="flex gap-6 m-2 overflow-x-scroll h-full max-h-96 pb-10">
+    <div className="flex gap-6 m-2 overflow-x-auto h-full max-h-96 pb-10">
       {cardsInfo().map((cardInfo, index) => (
         <Card key={index}>
               <h1 className="text-center text-xl border-b mx-4">{cardInfo.time}</h1>
