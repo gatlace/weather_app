@@ -34,7 +34,7 @@ export const searchCities = async (city: string): Promise<CityResult[]> => {
 export const getCity = async (city?: CityResult): Promise<City> => {
     let finalCity: City
     if (city === undefined) {
-        finalCity = await searchCities("Waterbury").then(data => data[0])
+        finalCity = await searchCities("New York").then(data => data[0])
             .then(data => fetch(data._links["city:item"].href))
             .then(data => data.json());
     } else {

@@ -1,15 +1,12 @@
 import Search from '../Search/Search';
 import { useCurrentCity } from 'hooks/useCurrentCity';
-import { useUpdateSavedCities } from 'hooks/useSavedCities';
 import SavedCities from './SavedCities/SavedCities';
-import Modal from 'components/templates/Modal/Modal';
 import { useState } from 'react';
 
 
 const CurrentCity = () => {
   const currentCity = useCurrentCity();
   const [isSavedCitiesOpen, setIsSavedCitiesOpen] = useState(false);
-  const setSavedCities = useUpdateSavedCities();
   
   return (
     <div className="flex w-11/12 items-center" id="current-city">
