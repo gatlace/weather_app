@@ -40,7 +40,8 @@ const Background = () => {
   handleFavicon()
 
   return (
-    <div className={"background fixed h-full w-full " + (timeOfDay())}/>
+    <div className={"flex flex-col background fixed h-full w-full items-end " + (timeOfDay())}>
+    </div>
   )
 }
 

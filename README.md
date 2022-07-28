@@ -4,7 +4,7 @@
 
 ## What is it?
 It's a simple weather app that I made using React and two APIs: \
-    [Open-Meteo](https://open-meteo.com) \
+    [Open-Meteo](https://open-meteo.com) [(Licence)](https://creativecommons.org/licenses/by-nc/4.0/)\
     [Teleport](https://developers.teleport.org)
 
 ## Features

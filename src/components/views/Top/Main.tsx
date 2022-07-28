@@ -10,6 +10,18 @@ const Main = () => {
 
   return (
     <div id="top-main" className="min-h-fit h-1/6 bg-transparent">
+      <div className="absolute text-xs">
+        <div>
+          <a href="https://open-meteo.com/">
+            Weather data by Open-Meteo.com
+          </a>
+        </div>
+      <div>
+        <a href="https://teleport.org/">
+          Location data by Teleport.org
+        </a>
+      </div>
+    </div>
       <h1 className={
         "px-2 flex text-3xl items-center h-1/2 " + 
         (!isMobile && "justify-center")}>
