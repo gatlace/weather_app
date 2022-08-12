@@ -10,7 +10,7 @@ const Main = () => {
 
   return (
     <div id="top-main" className="min-h-fit h-1/6 bg-transparent">
-      <div className="absolute text-xs text-end">
+      <div className="absolute text-xs w-full text-end pr-4">
         <div>
           <a href="https://open-meteo.com/">
             Weather data by Open-Meteo.com

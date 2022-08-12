@@ -10,7 +10,7 @@ import Top from "../Top/Main";
 
 const Main = () => {
   return (
-    <div className="h-screen text-white p-2">
+    <div className="h-screen text-white p-2 overflow-hidden">
       <IsMobileProvider>
         <IsDarkModeProvider>
           <CurrentCityProvider>
